@@ -18,7 +18,6 @@
    			background-repeat:no-repeat;
     		background-size:100% 100vh;
     		font-family: "Slackey", sans-serif;
-    		color: olive;
   		}
 
     	img {
@@ -27,28 +26,38 @@
     		margin: 10px;
 		}
 
-		span {
-			background: whitesmoke;
-			color: goldenrod;
-			font-size: 30px;
-			padding: 5px;
-		}
-
 		h1 {
 			color: crimson;
+		}
+
+		kbd {
+			color: crimson;
+			background: white;
 		}
 	</style>
 </head>
 
 <body><center>
-	<h1> Somewhere in Bikini Bottom... </h1>
-	<p> Mr. Krabs wants to know how much <br> his <span>100</span> pesos is in other currencies, help him by clicking the buttons below. </p>
+
+	<script>
+		document.write ("<h1> Somewhere in Bikini Bottom... </h1>")
+		document.write ("<h3> Mr. Krabs wants to know how much <br> his <kbd>100</kbd> pesos is in other currencies, help him by clicking the buttons below </h3>")
+	</script>
+
+	<br>
 	<img src="https://static.wikia.nocookie.net/spongebob/images/0/03/Wet_Painters_085.jpg/revision/latest?cb=20150818012516" width="400">
-	<p> Choose wisely to make Mr. Krabs happy: </p>
+	<br>
+	<br>
+
+	<script>
+		document.write ("Choose wisely to make Mr. Krabs happy:")
+	</script>
+	<br>
 
   	<div>
 		<a href="page2.html" class="btn btn-light btn-lg"> Dollar </a>
 		<a href="page3.html" class="btn btn-light btn-lg"> Yen </a>
 	</div>
+
 </center></body>
 </html>
